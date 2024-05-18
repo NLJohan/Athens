@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "name": "windows-gcc-x64",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "D:/SFML/SFML-2.6.1-windows-gcc-13.1.0-mingw-32-bit/SFML-2.6.1/include/SFML/**",
+                "D:/SFML/SFML-2.6.1-windows-gcc-13.1.0-mingw-32-bit/SFML-2.6.1/lib/**"
+            ],
+            "cStandard": "${default}",
+            "cppStandard": "${default}",
+            "intelliSenseMode": "windows-gcc-x64",
+            "compilerArgs": [
+                ""
+            ],
+            "compilerPath": "D:/msys64/ucrt64/bin/gcc.exe",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/**",
+                    "D:/SFML/SFML-2.6.1-windows-gcc-13.1.0-mingw-32-bit/SFML-2.6.1/include/**" // Chemin vers les en-têtes SFML
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            }
+        }
+    ],
+    "version": 4
+}
